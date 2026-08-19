@@ -1,0 +1,50 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# IDE / editor
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Data & model artifacts
+data/
+*.csv
+*.tsv
+*.parquet
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.joblib
+*.model
+
+# Keep the archive-2 dataset tracked
+!archive-2/*.csv
+
+# Logs
+*.log
+
+# R history
+.Rhistory
